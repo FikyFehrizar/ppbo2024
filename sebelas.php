@@ -1,7 +1,7 @@
 <?php
 require_once 'vendor/autoload.php';
 
-use App\Admin\Dosen;
+use App\Model\Akademik\Dosen;
 
 $dian = New Dosen();
 $dian->nama = 'Dian Prawira';
