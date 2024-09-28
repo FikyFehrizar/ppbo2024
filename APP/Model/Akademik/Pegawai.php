@@ -17,12 +17,13 @@ class Pegawai {
         return true;
     }
 
-    public function getNoHp() : int {
+    protected function getNoHp() : int {
         return $this->no_hp;
     }
 
     public function setNoHp(int $newNoHp) : void {
         $this->no_hp = $newNoHp;
     }
+    
 }
 ?>
